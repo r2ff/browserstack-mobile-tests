@@ -18,8 +18,4 @@ public interface MobileConfig extends Config {
     @Key("browserstack.key")
     String getBrowserStackKey();
 
-    @Key("device")
-    @DefaultValue("Google Pixel 3")
-    String getBrowserStackDevice();
-
 }
